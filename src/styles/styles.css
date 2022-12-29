@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.grid{
+    display: grid;
+}
+.container-world{
+    grid: 1fr 1fr / 1fr;
+}
+@media screen and (min-width: 768px) {
+    .container-world{
+        grid: 1fr / 1fr 1fr;
+    }
+}
